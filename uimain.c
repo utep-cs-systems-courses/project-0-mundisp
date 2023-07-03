@@ -27,16 +27,16 @@ int main()
     case 'c':
       puts("You selected chars:");
       for (char c = 'A'; c < 'D'; c++)
-	print_char_8x12(c);
+	print_char_8x12(c);             //change of font
       break;
     case 'q':
       puts("Bye!");
       goto done; 		/* terminate */
     case '\n':
       break;
-    case 'a':
+    case 'a':                             //added case for the implementation of the arrow
       puts("You selected arrow:");
-      print_arrow(7,7);
+      print_arrow(9,9);
       break;
     default:
       printf("Unrecognized option '%c', please try again!\n", c);

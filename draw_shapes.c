@@ -52,7 +52,8 @@ void print_arrow(int leftCol, int size){
     for(col = 0; col < leftCol; col++){
       putchar(' ');
     }
-    
+
+    //Formula for center
     float center = ((size * 2) + 1)/4;
 
     //adjusting square part to the center of triangle  
